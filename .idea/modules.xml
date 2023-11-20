@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConditionAndLoops/ConditionAndLoops.iml" filepath="$PROJECT_DIR$/ConditionAndLoops/ConditionAndLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionsAndMethodsInJava/FunctionsAndMethodsInJava.iml" filepath="$PROJECT_DIR$/FunctionsAndMethodsInJava/FunctionsAndMethodsInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Learnings/Java Learnings.iml" filepath="$PROJECT_DIR$/Java Learnings/Java Learnings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Learnings/JavaBasicsDSA/JavaBasicsDSA.iml" filepath="$PROJECT_DIR$/Java Learnings/JavaBasicsDSA/JavaBasicsDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_DSA_Kamal/Java_DSA_Kamal.iml" filepath="$PROJECT_DIR$/Java_DSA_Kamal/Java_DSA_Kamal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearSearchAlgorithm/LinearSearchAlgorithm.iml" filepath="$PROJECT_DIR$/LinearSearchAlgorithm/LinearSearchAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchStatements/SwitchStatements.iml" filepath="$PROJECT_DIR$/SwitchStatements/SwitchStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
