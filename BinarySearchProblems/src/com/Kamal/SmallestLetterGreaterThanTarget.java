@@ -3,13 +3,11 @@ package com.Kamal;
 public class SmallestLetterGreaterThanTarget {
     public static void main(String[] args) {
         char[] letters ={'c','f','j'};
-
         System.out.println(nextGreatestLetter(letters,'c'));
         System.out.println(nextGreatestLetter(letters,'a'));
         System.out.println( nextGreatestLetter(letters,'z'));
         System.out.println(nextGreatestLetter(letters,'g'));
         System.out.println(nextGreatestLetter(letters,'d'));
-
     }
 
 
