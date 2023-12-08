@@ -117,7 +117,7 @@ public class SortedMatrix2 {
         }
 
         if (matrix[midRow][colStart+1] == target) {
-            return new int[]{midRow + 1, colStart+1};
+            return new int[]{midRow, colStart+1};
         }
         //otherwise
         //Search in 1st half
