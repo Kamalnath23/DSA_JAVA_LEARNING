@@ -87,10 +87,6 @@ public class SortedMatrix {
             return binarySearch(matrix, 0, 0, cols - 1, target);
         }
 
-//        if(rows==2 && cols ==2){
-//
-//        }
-
         //run the loop till 2 rows are remaining
         int rowStart = 0; //Lower bound
         int rowEnd = rows - 1; //Upper bound
