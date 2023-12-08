@@ -46,6 +46,14 @@ public class SortedMatrix2 {
         System.out.println(Arrays.toString(search(array5,7)));
         System.out.println(Arrays.toString(search(array5,11)));
         System.out.println(Arrays.toString(search(array5,-1)));
+
+        int[][] array6={
+                {1},
+                {2},
+                {3}
+        };
+        System.out.println(Arrays.toString(search(array6,3)));
+        System.out.println(Arrays.toString(search(array6,4)));
     }
 
     /**
@@ -80,6 +88,9 @@ public class SortedMatrix2 {
     public static int[] search(int[][] matrix, int target) {
         int rows = matrix.length;
         int cols = matrix[0].length; //be cautious matrix may be empty.
+        if(cols==1){
+            return  binarySearch(matrix,0,0,rows-1, target);
+        }
         int midRow = rows/2;
 
         int colStart=0;
