@@ -33,17 +33,29 @@ public class BubbleSortAlgorithm {
             for(int j=1; j<= array.length-i-1 ;j++){ // j< array.length-i
                 //swap if the item is smaller than the prev item.
                 if(array[j] < array[j-1]){
+                    swap(array, j, j-1);
+                }
+
+                /*
+                if(array[j] < array[j-1]){
                     //swap
                     int temp = array[j];
                     array[j] =  array[j-1];
                     array[j-1] = temp;
                     swapped=true;
                 }
+                 */
             }
             //if you did not swap for particular value of i, it means array is sorted and we can end the program.
             if(!swapped){
                 break;
             }
         }
+    }
+
+    static  void swap(int[] array, int first, int second){
+        int temp= array[first];
+        array[first]= array[second];
+        array[second] = temp;
     }
 }
