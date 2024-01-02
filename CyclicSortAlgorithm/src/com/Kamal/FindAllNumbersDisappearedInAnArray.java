@@ -9,7 +9,7 @@ public class FindAllNumbersDisappearedInAnArray {
             int[] x= {4,3,2,7,8,2,3,1};
         int[] y= {1,1};
         System.out.println(findDisappearedNumbers(x).toString());
-        System.out.println(f    indDisappearedNumbers(y).toString());
+        System.out.println(findDisappearedNumbers(y).toString());
 
     }
 
