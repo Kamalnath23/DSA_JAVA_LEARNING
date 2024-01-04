@@ -35,8 +35,8 @@ public class SetMisMatch {
         int[] ans = new int[2];
         for(int i=0; i<nums.length;i++){
             if(nums[i] != i+1){
-                ans[0] = nums[i];
-                ans[1] = i+1;
+                ans[0] = nums[i]; //duplicate number
+                ans[1] = i+1; //missing number
             }
         }
         return ans;
