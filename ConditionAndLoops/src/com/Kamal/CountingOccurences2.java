@@ -9,6 +9,7 @@ public class CountingOccurences2 {
         System.out.println("Enter a number: ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
+        int permanent=number;
         //1385757879
         System.out.println("Enter the number to calculate the no.of.times its repeating in a above number");
         Scanner sc2 = new Scanner(System.in);
@@ -21,7 +22,7 @@ public class CountingOccurences2 {
             }
             number=number/10;
         }
-        System.out.println(num+" is repeatd "+count+" times in a given number "+number);
+        System.out.println(num+" is repeatd "+count+" times in a given number "+permanent);
 
     }
 }

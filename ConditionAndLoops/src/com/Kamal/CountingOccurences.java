@@ -15,13 +15,14 @@ public class CountingOccurences {
         char n = sc2.next().charAt(0);
 
         int num = number.length();
+        System.out.println("length: "+num);
         int count=0;
         for(int i=0; i<num-1; i++){
             if(number.charAt(i) == n){
                 count++;
             }
         }
-        System.out.println(n+" is repeatd "+count+" times in a given number "+number);
+        System.out.println(n+" is repeated "+count+" times in a given number "+number);
 
     }
 }
