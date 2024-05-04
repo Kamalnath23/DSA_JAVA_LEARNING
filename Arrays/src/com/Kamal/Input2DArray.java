@@ -35,7 +35,7 @@ public class Input2DArray {
         }
 
         //Output 2
-        System.out.println("Output 2 -- one for loop and toStr=ing method");
+        System.out.println("Output 2 -- one for loop and toString method");
         for(int row= 0; row < arr.length; row++){
             System.out.println(Arrays.toString(arr[row]));
         }
